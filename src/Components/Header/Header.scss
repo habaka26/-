@@ -1,0 +1,18 @@
+@import '../../vars.scss';
+.header {
+    background-color: $block;
+    &__inner {
+        padding: 16px 0;
+        display: flex;
+        justify-content: space-between;
+    }
+    &__logo {
+        color: #ffffff;
+    }
+    &__login {
+        transition: .2s;
+        &:hover {
+            color: $active;
+        }
+    }
+}
